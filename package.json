@@ -1,0 +1,34 @@
+{
+  "name": "furtlingaround.com",
+  "version": "0.1.0",
+  "description": "A jekyll website for photographer cum developer, originally forked from https://github.com/ramswaroop/photography",
+  "main": "npmfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samcolby/furtlingaround.git"
+  },
+  "keywords": [
+    "photography",
+    "jekyll",
+    "website",
+    "template",
+    "website template",
+    "portfolio",
+    "portfolio website",
+    "furtlingaround"
+  ],
+  "author": "Sam Colby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samcolby/furtlingaround/issues"
+  },
+  "homepage": "https://github.com/samcolby/furtlingaround#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp-image-resize": "^0.12.0",
+    "gulp": "^3.9.1"
+  }
+}

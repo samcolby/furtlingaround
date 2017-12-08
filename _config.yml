@@ -1,0 +1,18 @@
+# Base configs
+baseurl: ""
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
+# google_analytics: "UA-46465113-2"
+
+# UI configs
+title: "Furtling Around"
+subtitle: "Furtling around and taking some photos"
+html_title: "Furtling Around"
+html_subtitle: "with a camera"
+author: "Sam Colby"
+about_header: "Furtling around with a camera"
+bio: "Some random snaps from here and there."
+publicise: ""
+web_design: "AJ & Ram Patra"
+
+  

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="index.html"><strong>{{ site.html_title }}</strong> {{ site.html_subtitle }}</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+        {% for image in site.static_files %}
+            {% if image.path contains 'fulls' %}
+                <article class="thumb">
+                    <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
+                    <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt="" data-name="{{ image.name }}"/></a>
+                    <!--<h2></h2>
+                    <p></p>-->
+                </article>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="panel">
+        <div class="inner split">
+            <div>
+                <section>
+                    <h2>{{ site.about_header }}</h2>
+                    <p>{{ site.bio }}</p>
+                    <p>{{ site.publicise }}</p>
+                </section>
+                
+                <p class="copyright">
+                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                </p>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </footer>
+</div>
